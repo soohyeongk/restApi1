@@ -11,6 +11,7 @@
 	<groupId>com.rest.api1</groupId>
 	<artifactId>restApi1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>restApi1</name>
 	<description>RestApi1</description>
 
