@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class RestApi1Controller {
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String getWelcome() {
+		return "Welcome Rest Api1";
+	}
+	
 	@RequestMapping(value = "getRestApi1", method = RequestMethod.GET)
 	public String getRestApi1() {
 		return "Get Rest Api1";
